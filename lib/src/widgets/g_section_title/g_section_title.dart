@@ -36,9 +36,9 @@ class GSectionTitle extends ConsumerWidget {
   final Color? Function(ColorScheme)? backgroundColorBuilder;
 
   @override
-  Widget build(BuildContext context, ScopedReader watch) {
+  Widget build(BuildContext context, WidgetRef ref) {
     final colorScheme = Theme.of(context).colorScheme;
-    final gSectionTitleThemeData = watch(gSectionTitleThemeDataProvider);
+    final gSectionTitleThemeData = ref.watch(gSectionTitleThemeDataProvider);
 
     final textColor = color ??
         colorBuilder?.call(Theme.of(context).colorScheme) ??

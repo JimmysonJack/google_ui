@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:riverpod/src/framework.dart';
 
 import 'g_section_title_theme_data.dart';
 
-final gSectionTitleThemeDataProvider = ScopedProvider(
-  (ref) => GSectionTitleThemeData(),
-);
+// final gSectionTitleThemeDataProvider = ScopedProvider(
+//   (ref) => GSectionTitleThemeData(),
+// );
+final gSectionTitleThemeDataProvider = Provider((ref) => GSectionTitleThemeData());
+
 
 /// Theme for `GSectionTitle`
 class GSectionTitleTheme extends StatelessWidget {
@@ -31,3 +34,4 @@ class GSectionTitleTheme extends StatelessWidget {
     );
   }
 }
+

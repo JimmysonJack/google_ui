@@ -11,7 +11,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_riverpod: ^0.14.0+3
+  flutter_riverpod: ^1.0.3
   intl: ^0.17.0
   spring: ^2.0.2
 
