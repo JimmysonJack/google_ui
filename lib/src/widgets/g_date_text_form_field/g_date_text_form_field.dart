@@ -133,6 +133,7 @@ class GDateTextFormField extends StatelessWidget {
           isValid = RegExp(datePattern).hasMatch(value);
         }
         if (validator != null) return validator!(value, isValid);
+        return null;
       },
       inputFormatters: inputFormatters,
     );

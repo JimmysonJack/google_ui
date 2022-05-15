@@ -6,9 +6,7 @@ import 'widgets/g_tab_bar/g_tab_bar_indicator.dart';
 class GThemeGenerator {
   static const ColorScheme _colorScheme = ColorScheme(
     primary: Color(0xFF1A73E9),
-    primaryVariant: Color(0xFF1D62D6),
     secondary: Color(0xFF1A73E9),
-    secondaryVariant: Color(0xFF1D62D6),
     surface: Colors.white,
     background: Colors.white,
     error: Color(0xFFC6074A),
@@ -22,9 +20,7 @@ class GThemeGenerator {
 
   static const ColorScheme _darkColorScheme = ColorScheme(
     primary: Color(0xFF89B4F8),
-    primaryVariant: Color(0xFFA6C9FC),
     secondary: Color(0xFF89B4F8),
-    secondaryVariant: Color(0xFFA6C9FC),
     surface: Color(0xFF303135),
     background: Color(0xFF202125),
     error: Color(0xFFC6074A),

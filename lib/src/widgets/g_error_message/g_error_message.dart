@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:google_ui/src/widgets/g_text_button/g_text_button.dart';
 
-import '../g_elevated_button/g_elevated_button.dart';
 import '../g_text/g_text.dart';
 import '../g_text/g_text_variant.dart';
 
@@ -76,7 +76,7 @@ class GErrorMessage extends StatelessWidget {
                 ],
                 if (onPressed != null) const SizedBox(height: 32),
                 if (onPressed != null)
-                  GElevatedButton(
+                  GTextButton(
                     buttonLabel ?? "Try again",
                     onPressed: onPressed,
                   ),

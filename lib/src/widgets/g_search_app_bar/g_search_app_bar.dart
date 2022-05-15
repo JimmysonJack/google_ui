@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 
 import '../../g_text_selection_controls.dart';
 import '../g_text/g_text.dart';
